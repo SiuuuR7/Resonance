@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://difnkmk4fm1gx"
-path="res://.godot/imported/tilemap.png-8de1f97e6100319935026dc941ff871c.ctex"
+uid="uid://c42aaq53swucc"
+path="res://.godot/imported/Water_Elevation_#3_(12frames).png-91208015ab988f2cbe6938c2060f4804.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprite/tilemap.png"
-dest_files=["res://.godot/imported/tilemap.png-8de1f97e6100319935026dc941ff871c.ctex"]
+source_file="res://Sprite/Terrain/Water_Elevation_#3_(12frames).png"
+dest_files=["res://.godot/imported/Water_Elevation_#3_(12frames).png-91208015ab988f2cbe6938c2060f4804.ctex"]
 
 [params]
 
