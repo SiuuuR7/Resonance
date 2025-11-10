@@ -63,6 +63,3 @@ autoplay = "idle_side"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CapsuleShape2D_6hr8h")
-
-[node name="Camera2D" type="Camera2D" parent="."]
-zoom = Vector2(2.58, 2.58)
