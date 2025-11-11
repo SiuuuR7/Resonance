@@ -1,3 +1,4 @@
+
 extends CharacterBody2D
 
 @onready var animated_sprite: AnimatedSprite2D = %AnimatedSprite2D
@@ -18,4 +19,10 @@ func _physics_process(delta: float) -> void:
 func play_animation(prefix: String, direction: Vector2) -> void:
 	if abs(direction.x) > abs(direction.y):
 		animated_sprite.flip_h = direction.x < 0
+		animated_sprite.play(prefix + "_side")
+	elif direction.y > 0:
+		animated_sprite.flip_h = false
+		animated_sprite.play(prefix + "_side")
+	else:
+		animated_sprite.flip_h = false
 		animated_sprite.play(prefix + "_side")
