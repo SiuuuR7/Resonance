@@ -202,7 +202,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_fihmd")
 }],
-"loop": true,
+"loop": false,
 "name": &"guitar_equip",
 "speed": 5.0
 }, {
@@ -222,6 +222,20 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
+"texture": SubResource("AtlasTexture_ckxam")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qf6sb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d3tna")
+}],
+"loop": true,
+"name": &"guitar_idle_side",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
 "texture": SubResource("AtlasTexture_5b18d")
 }, {
 "duration": 1.0,
@@ -233,9 +247,9 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_t4kbk")
 }],
-"loop": true,
+"loop": false,
 "name": &"guitar_strum",
-"speed": 5.0
+"speed": 10.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -250,7 +264,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_otx3t")
 }],
-"loop": true,
+"loop": false,
 "name": &"guitar_unequip",
 "speed": 5.0
 }, {
@@ -402,9 +416,10 @@ unique_name_in_owner = true
 position = Vector2(0.5, -1)
 scale = Vector2(0.96875, 0.875)
 sprite_frames = SubResource("SpriteFrames_yrq1g")
-animation = &"guitar_unequip"
+animation = &"guitar_strum"
 autoplay = "idle_side"
-frame_progress = 0.60602087
+frame = 3
+frame_progress = 1.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CapsuleShape2D_6hr8h")
