@@ -21,7 +21,7 @@ func _physics_process(delta: float) -> void:
 	var direction = Vector2.ZERO
 	if not is_guitar_equipped:
 		direction = Input.get_vector("move_left", "move_right","move_up", "move_down").normalized()
-		velocity = direction * 225
+		velocity = direction * 80
 	else:
 		velocity = Vector2.ZERO
 		
