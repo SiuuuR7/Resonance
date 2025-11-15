@@ -410,7 +410,8 @@ animations = [{
 }]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_6hr8h"]
-radius = 9.0
+radius = 6.3085628
+height = 22.0
 
 [node name="Disk" type="CharacterBody2D"]
 script = ExtResource("1_7yaic")
@@ -425,4 +426,6 @@ autoplay = "idle_side"
 frame_progress = 0.0975073
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(3.5527137e-15, 0)
+scale = Vector2(0.7925735, 1.0201756)
 shape = SubResource("CapsuleShape2D_6hr8h")
